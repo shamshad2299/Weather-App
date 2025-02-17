@@ -1,0 +1,300 @@
+
+body {
+    display: flex;
+    justify-content: center;
+   background-size: cover;
+    margin: 0;
+    font-size: 120%;
+    background-image: url("https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg");
+    background-position: center;
+background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   } 
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: initial; 
+    width: 100%;
+   }
+   
+   .card {
+    background-image: url("https://thumbs.dreamstime.com/b/mercury-thermometer-summer-heat-sun-light-mercury-thermometer-marking-degrees-celsius-fahrenheit-sunny-day-summer-heat-shown-115254743.jpg");
+   padding: 5px;
+    background-size: cover;
+    color: rgb(53, 36, 36);
+    border-radius: 30px;
+    width: 80vw;
+    margin: 1em;
+    box-shadow: 1px 3px 5px rgba(141, 138, 138, 0.1);
+    min-height: 44vh;
+    flex : 1 1 45%;
+   }
+   .card1{
+    border-radius: 30px;
+    margin-top: 20px;
+  background-color: black;
+    max-height: 100px;
+    box-shadow: 1px 3px 5px rgba(141, 138, 138, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+   }
+   
+   .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   input.search-bar {
+    border: none;
+    outline: none;
+    margin-right: 7px;
+    padding: 0.4em 1em;
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(15, 1, 1);
+    font-size: 120%;
+    width: calc(100% - 100px);
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+   }
+  
+   button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 3em;
+    width: 3em;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+   }
+   
+   button:hover {
+    background-color: #9b7979;
+   }
+   
+   
+   /* .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+   } */
+   
+   /* .weather.loading::after {
+    position: absolute;
+    top: 0;
+    color: white;
+    visibility: visible;
+    content: "Page Loading...";
+    font-weight: bold;
+    left: 30px;
+   } */
+   
+   h1.city {
+   background-color: azure;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: rgb(22, 128, 8);
+   }
+   h1 span{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(225, 19, 19);
+   }
+   .tempreture p{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    width: fit-content;
+   
+   }
+   .tempreture p span{
+    padding: 4px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: rgb(131, 12, 12);
+   }
+   
+  
+   .cards{
+
+   background-image: url("https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg");
+   }
+   .cards h5{
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+   }
+   .card2{
+    background-image: url("   https://iaspoint.com/wp-content/uploads/2022/10/wind_speed_and_direction.jpg");
+   }
+   .card3{
+    background-image: url("https://images.pexels.com/photos/205410/pexels-photo-205410.jpeg?cs=srgb&dl=pexels-tahir-shaw-50609-205410.jpg&fm=jpg");
+   }
+
+   
+   .windSpeed img{
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+   }
+   .wind{
+   display: flex;
+   gap: 40px;
+   }
+   .wind span{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #0b1af5;
+    font-weight: bolder;
+    background: #f9f8f8;
+    padding: 3px;
+    border-radius: 10px;
+   }
+   .wind p {
+    border-radius: 8px;
+    padding: 3px;
+    background-color: yellow;
+  }
+  .windDirection{
+    display: flex;
+ gap: 20px;
+  }
+  .windDirection span{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  background-color: white;
+  color: #0b1af5;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 3px;
+
+  }
+  .windDirection p{
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 3px;
+  }
+  .weather{
+    margin-top: 2px;
+    display: flex;
+   gap: 30px;
+   
+  }
+  .weather p{
+    color: white;
+    background-color: green;
+    border-radius: 10px; 
+    padding: 1px;   
+  }
+  .weather span{
+    color: rgb(22, 6, 121);
+    border-radius: 10px;  
+    padding: 1px;
+   font-weight: bolder;
+ 
+  }
+  .flex{
+ gap: 40px;
+  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contain{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  .card3-p{
+    color: rgb(60, 11, 11);
+    background-color: white;
+    margin-top: 30px;
+    padding: 3px;
+    font-weight: bolder;
+    text-align: center;
+
+  }
+  .country{
+    display: flex;
+    background-color: rgb(246, 254, 246);
+    gap: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  .country p{
+    border-radius: 6px;
+    padding: 3px;
+    font-weight: bold;
+
+  }
+  .country span{
+    background-color: yellow;
+    border-radius: 6px;
+    padding: 3px;
+    height: 30px;
+  }
+  .sunrise-sunset{
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .sunrise{
+    display: flex;
+    color: rgb(10, 14, 76);
+    margin-top: 3px;
+    gap: 60px;
+    background-color: rgb(251, 247, 246);
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .sunrise span{
+    color: black;
+  border-radius: 10px;
+    background-color: yellow;
+    border-radius: 6px;
+    padding: 3px;
+  }
+ 
+  .sun-img{
+ margin-top: 30px;
+ border-radius: 50%;
+  }
+  .sun-img img{
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+   @media screen and (max-width: 600px) {
+    .container{
+      flex-direction: column;
+      overflow:hidden ;
+    }
+    .card {
+      border-radius: 35px;
+      max-width: 400px;
+      overflow: hidden;
+     }
+     .search {
+        margin-top: 20px;
+        
+    }
+   
+    input.search-bar {
+     padding: 0.3em 0.8em;
+     border-radius: 30px;
+     background-color: white;
+     color: black;
+     width: calc(100% - 30px);
+     letter-spacing: 1px;
+    }
+   }
